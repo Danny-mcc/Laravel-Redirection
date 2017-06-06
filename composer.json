@@ -1,0 +1,34 @@
+{
+  "name": "dannymcc/laravel-redirection",
+  "description": "Redirect pages.",
+  "keywords": ["laravel", "redirect", "redirection"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "danny-mcc",
+      "email": "dan@rocketone.co.uk"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dannymcc\\Redirection\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dannymcc\\Redirection\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.0",
+    "doctrine/dbal": "~2.3",
+    "doctrine/cache": "^1.6",
+    "phpunit/phpunit": "^6.2"
+  }
+}
